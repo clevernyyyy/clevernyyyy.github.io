@@ -20,7 +20,7 @@
     "clean:demo": "rimraf build",
     "clean:es": "rimraf dist/es",
     "clean:umd": "rimraf dist/umd",
-    "deploy": "gh-pages -d build -b master",
+    "deploy": "gh-pages -d build -a -b master",
     "lint": "standard",
     "prebuild": "npm run lint",
     "predeploy": "cp ./circle.yml ./build/",
