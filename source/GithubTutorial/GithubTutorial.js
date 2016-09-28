@@ -52,7 +52,7 @@ export default class GithubTutorial extends Component {
         </ContentBoxParagraph>
 
         <ContentBoxParagraph>
-          <img className={styles.Image} src='https://clevernyyyy.github.io/demos/create_new_repository.png'/>
+          <img className={styles.Image} src='https://github.com/clevernyyyy/clevernyyyy.github.io/blob/master/demos/create_new_repository.png'/>
         </ContentBoxParagraph>
 
         <ContentBoxParagraph>
