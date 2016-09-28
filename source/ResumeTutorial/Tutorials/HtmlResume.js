@@ -388,8 +388,10 @@ export default class HtmlTutorial extends Component {
         <ContentBoxParagraph>
           After a refresh, you'll see that we have two very nice, distinct big headers and we're well on our way to creating on 
           our web resume.  Now that we've covered the basics, you should be able to continue on and create your own online resume.
-          If you need ideas, I recommend clicking the <a className={styles.Link} href="">Resume</a> link in the top right corner 
-          of this page, or for the complete source click <a className={styles.Link} href="">here</a>.
+          If you need ideas, I recommend clicking 
+          the <a className={styles.Link} href="https://clevernyyyy.github.io/demos/html-resume/index.html">Resume</a> link in the 
+          top right corner of this page, or for the complete source 
+          click <a className={styles.Link} href="https://github.com/clevernyyyy/clevernyyyy.github.io/blob/master/demos/html-resume/README.md">here</a>.
         </ContentBoxParagraph>
 
 
