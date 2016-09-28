@@ -1,0 +1,46 @@
+.header {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  vertical-align: top;
+}
+.second-head {
+  font-size: 18px;
+  letter-spacing: .10em;
+  font-weight: 900;
+}
+.sub-header {
+  font-size: 16px;
+  color: #6e9ad0;  
+  margin-bottom: 30px;
+}
+.bh-text, .sm-text {
+  height: 19px;
+  font-weight: bold;
+  top: 6px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+.objective-text {
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.skill-dot-chart {
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+.skill-dot-title {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+.skill-years {
+  margin-left: 15px;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  font-size: 10px;
+}

@@ -86,8 +86,8 @@ export default class HtmlTutorial extends Component {
       <ContentBox>
         <ContentBoxHeader 
           text='Getting Started'
-          sourceLink='https://github.com/clevernyyyy/clevernyyyy.github.io'
-          docsLink='https://github.com/clevernyyyy/clevernyyyy.github.io'
+          sourceLink='https://github.com/clevernyyyy/clevernyyyy.github.io/demos/html-resume/README.md'
+          docsLink='https://github.com/clevernyyyy/clevernyyyy.github.io/demos/html-resume/index.html'
           docsName='Resume'
           paramStyle={styles.Header}
         />

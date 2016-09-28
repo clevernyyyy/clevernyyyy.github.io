@@ -1,0 +1,16 @@
+.pink {
+  background-color: pink;
+  min-height: 100vh;
+}
+.blue {
+  background-color: skyblue;
+}
+.grey {
+  background-color: #eee;
+  min-height: 1000px;
+}
+
+.yellow {
+  background-color: gold;
+  min-height: 100vh;
+}
