@@ -79,7 +79,7 @@ export default class GithubTutorial extends Component {
         <ContentBoxParagraph>
           Once, you have moved your <code>index.html</code> page into your <code>USERNAME.github.io</code> repository, you can simple 
           navigate to <a className={styles.Link} href='#components/GithubTutorial'>http://USERNAME.github.io</a> and you will see something 
-          similar to <a className={styles.Link} href='https://clevernyyyy.github.io/demos/'>this page</a>.
+          similar to <a className={styles.Link} href='https://clevernyyyy.github.io/demos/index.html'>this page</a>.
         </ContentBoxParagraph>
 
       </ContentBox>
