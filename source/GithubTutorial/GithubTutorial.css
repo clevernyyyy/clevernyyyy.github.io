@@ -1,0 +1,53 @@
+.Link:hover {
+  text-decoration: none;
+}
+
+.Header {
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #b64d4d;
+}
+
+.Image {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+@media (max-width: 1000px) {
+  .Image {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Image {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Image {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .Image {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Image {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Image {
+    max-width: 400px;
+  }
+}
+
+

@@ -1,0 +1,123 @@
+html, body, :global(#root) {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #272727;
+  box-sizing: border-box;
+}
+a {
+  color: #bf676f;
+}
+* {
+  font-size: inherit;
+  box-sizing: inherit;
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #b64d4d;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.logoRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ReactVirtualizedContainer {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem;
+}
+.LogoColumn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.PrimaryLogoText,
+.SecondaryLogoText {
+  text-transform: lowercase;
+  font-size: 2em;
+}
+.PrimaryLogoText {
+  font-weight: bold;
+  color: #272727;
+  margin: 0 0 0 .5em;
+}
+.SecondaryLogoText {
+  color: #ffffff;
+}
+
+.NavList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.ComponentList,
+.HighOrderComponentList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.7rem;
+}
+.ComponentList {
+  background-color: #272727;
+}
+.HighOrderComponentList {
+  background-color: #111;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.Body {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+code {
+  background-color: #eeeeee;
+  padding: .25em;
+}
+
+:global(.CodeMirror) {
+  height: auto;
+  font-size: 0.75rem;
+}
